@@ -1,0 +1,15 @@
+#ifndef CMAIL_ERROR_H
+#define CMAIL_ERROR_H
+
+typedef enum {
+    CMAIL_OK = 0,
+
+    CMAIL_ERROR_INVALID_ARGUMENT,
+    CMAIL_ERROR_MEMORY,
+    CMAIL_ERROR_BUILD,
+    CMAIL_ERROR_FILE,
+    CMAIL_ERROR_IO,
+    CMAIL_ERROR_UNKNOWN,
+} cmail_error_t;
+
+#endif // CMAIL_ERROR_H
